@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.btn-primary-regular {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    width: 187px;
+    height: 56px;
+    background: #475F45;
+    border: none;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+}
+
+.btn-primary-regular:hover {
+    background-color: darkolivegreen;
+}
+.btn-primary-regular:active {
+    box-shadow: 0px 5px 5px 2px #475F45 inset;
+}
+
+.btn-primary-small {}
+.btn-secondary-regular {}
+.btn-secondary-small {}
+.btn-tertiary-regular {}
+.btn-tertiary-small {}
