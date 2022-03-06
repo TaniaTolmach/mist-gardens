@@ -2,26 +2,138 @@
 
 .btn-primary-regular {
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     text-transform: uppercase;
     color: #fff;
-    width: 187px;
-    height: 56px;
-    background: #475F45;
+    background: #475f45;
     border: none;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.15em;
+    padding: 20px 40px;
 }
 
 .btn-primary-regular:hover {
     background-color: darkolivegreen;
 }
+
 .btn-primary-regular:active {
-    box-shadow: 0px 5px 5px 2px #475F45 inset;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.btn-primary-small {}
-.btn-secondary-regular {}
-.btn-secondary-small {}
-.btn-tertiary-regular {}
-.btn-tertiary-small {}
+.btn-primary-small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    left: 328px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #475F45;
+    padding: 15px 30px;
+    border: none;
+}
+
+.btn-primary-small:hover {
+    background-color: darkolivegreen;
+}
+
+.btn-primary-small:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-secondary-regular {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #475F45;
+    padding: 18px 38px;
+    background-color: #fff;
+    border: 2px solid #475F45;
+}
+
+.btn-secondary-regular:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-secondary-regular:hover {
+    border: 3px solid #475F45;
+    box-sizing: border-box;
+}
+
+.btn-secondary-small {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #475F45;
+    padding: 13px 28px;
+    border: 2px solid #475F45;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.btn-secondary-small:hover {
+    border: 3px solid #475f45;
+    box-sizing: border-box;
+}
+
+
+.btn-secondary-small:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-tertiary-regular {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #475F45;
+    background-color: #fff;
+    border: none;
+    padding: 20px 40px;
+}
+.btn-tertiary-regular:active{
+    box-shadow: 0px 5px 5px 2px #475F45 inset;
+}
+.btn-tertiary-regular:hover {
+    text-decoration: 2px underline #475F45;   
+}
+.btn-tertiary-small {
+    display: inline-flex;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #475F45;
+    background-color: #fff;
+    border: none;
+    padding: 15px 30px;
+}
+
+.btn-tertiary-small span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-tertiary-small img {
+}
+
+.btn-tertiary-small:hover {
+    text-decoration: 2px underline #475F45;   
+}
